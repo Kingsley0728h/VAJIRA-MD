@@ -11,9 +11,9 @@ const FOOTERNAME = '> ＶＡＪＩＲＡ -  ＭＤ - Ｖ4';
 global.owner = process.env.OWNER_NUMBER  || '24104552653' ;  // ADD YOUR NUMBER WITHOUT +
     
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=nI1HgIiY#shA3EfMW7FfeN-mjAgXhAc8EmzJhUqZEWTCW4kEwXnY' ,
+SESSION_ID: process.env.SESSION_ID || 'VAJIRA-MD=OQ01Ea5a#23wTBKHw-qBn3FxKMRLtzOy4bCFfCqe_n-GVGolCvGY' ,
 travaSend: process.env.TRAVA_SEND || '25' ,   
-MODERATORS : process.env.MODERATORS === undefined ? "24104351384,24104552653" : process.env.MODERATORS ,    
+MODERATORS : process.env.MODERATORS === undefined ? "24104552653,24106132283" : process.env.MODERATORS ,    
 MAX_SIZE: process.env.MAX_SIZE === undefined ? '1536': process.env.MAX_SIZE,/*add this in megabytes*/    
 OWNER_NAME: process.env.OWNER_NAME || 'VAJIRA' ,
 COMMAND_TYPE: process.env.COMMAND_TYPE || 'button' ,
@@ -26,7 +26,7 @@ ANTI_BAD: process.env.ANTI_BAD || true  ,
 AUTO_REACT:  process.env.AUTO_REACT  || true ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || true ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || true  ,
-AUTO_READ:  process.env.AUTO_READ  || false  ,
+AUTO_READ:  process.env.AUTO_READ  || true  ,
 AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
@@ -41,9 +41,9 @@ ANTI_BOT: process.env.ANTI_BOT || true  ,
 ANTI_CALL: process.env.ANTI_CALL || true  ,
 ALIVE: process.env.ALIVE || `default`,     
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || true  ,    
-AUTO_VOICE:  process.env.AUTO_VOICE  || false  ,
+AUTO_VOICE:  process.env.AUTO_VOICE  || true  ,
 AUTO_STICKER: process.env.AUTO_STICKER || false  ,
 WELCOME:  process.env.WELCOME  || true ,
-ANTI_DELETE : process.env.ANTI_DELETE || false ,
+ANTI_DELETE : process.env.ANTI_DELETE || true ,
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO    
 };
